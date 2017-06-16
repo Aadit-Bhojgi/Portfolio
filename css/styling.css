@@ -1,0 +1,80 @@
+body{
+	
+	background-color:#e3e4e5;
+}
+h1{
+	color:#253039;
+	margin: 15px;
+	font-size: 3.75em;
+	font-family: "Lato";
+	font-weight: 900;
+	float: right;
+}
+span{
+	color:#cd1d68;
+	font-size: 0.6em;
+	float: right;
+}
+hr {
+    border-top: 3px solid #253039;
+    margin: 1em 0; 
+}
+h4{
+	margin: 15px;
+	font-size: 2.75em;
+	font-family: "Lato";
+	font-weight: 900;
+	float: left;
+}
+h5{
+	color:#253039;
+	font-size: 1.75em;
+	font-family: "Bebas";
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+.a_{
+	text-align: center;
+}
+.hr_2{
+    border-top: 3px solid #cd1d68;
+    margin: 1em 0; 
+}
+.head_1{
+	
+	border:5px;
+}
+
+.logo_{
+	
+	height: 10%;
+	width: 10%;
+	margin: 15px;
+	float: left;
+	min-width: 20%;
+}
+
+@media screen and (max-width: 650px) {
+    .h1_1{
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 384px) {
+	.h1_2{
+		font-size: 2em;
+	}
+}
+
+.img_{
+	width: 70em;
+	display: block;
+    margin: auto;
+}
+.img_s{
+	max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
